@@ -64,13 +64,13 @@ public class servicioCuenta {
         cuenta.setSaldoActual(auxSaldoActual);
     }
     public void consultarSaldo(Cuenta cuenta){
-        System.out.println("Saldo Actual: "+cuenta.getSaldoActual());
+        System.out.println("Saldo Actual: "+cuenta.getSaldoActual()+" USD");
     }
     public void consultarDatos(Cuenta cuenta){
         System.out.println("Datos del Cliente:");
         System.out.println("Número de Cuenta: "+cuenta.getNumeroCuenta());
         System.out.println("DNI: "+cuenta.getDni());
-        System.out.println("Saldo Actual: "+cuenta.getSaldoActual());
+        System.out.println("Saldo Actual: "+cuenta.getSaldoActual()+" USD");
         System.out.println("Interés Aprobado: "+cuenta.getInteres());
     }
 }
