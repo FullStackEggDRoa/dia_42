@@ -12,7 +12,7 @@ public class Cafetera {
     
     // Atributos
     
-    private int capacidadMáxima=1000;
+    private int capacidadMáxima=3000;
     private int cantidadActual=0;
     
     //Constructores
@@ -62,7 +62,7 @@ public class Cafetera {
             this.cantidadActual-=tamanio;
         }else{
             nivelTaza=this.cantidadActual;
-           
+            this.cantidadActual-=tamanio;
         }
         System.out.println("Cantidad Actual: "+this.cantidadActual+" ml");
         return nivelTaza;
