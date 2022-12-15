@@ -83,6 +83,7 @@ public class Ejercicio_5 {
         }
         */
         
+        /*
         try {
             if (System.getProperty("os.name").contains("Windows")) {
                 new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
@@ -90,7 +91,7 @@ public class Ejercicio_5 {
                 System.out.print("\033\143");
             }
         } catch (IOException | InterruptedException ex) {
-        }
+        }*/
     }
 
     
